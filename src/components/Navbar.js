@@ -6,10 +6,10 @@ export default function Navbar() {
     <div className="navbar">
         <div className="max-width">
             <div className="nav-menu">
-                <div className="brand">H2GO</div>
+                <div className="brand"><Link className="brand-logo" to="/">H2GO<i class="fas fa-location-arrow"></i></Link></div>
                 <ul>
                     <li>
-                        <Link to="/" className="nav-item">Home</Link>
+                        <Link to="/" className="nav-item">Hungry</Link>
                     </li>
                     <li>
                         <Link to="/get" className="nav-item">Get</Link>
@@ -19,9 +19,6 @@ export default function Navbar() {
                     </li>
                     <li>
                         <Link to="/go" className="nav-item">Go</Link>
-                    </li>
-                    <li>
-                        <Link to="/contact" className="nav-item">Contact</Link>
                     </li>
                 </ul>
             </div>

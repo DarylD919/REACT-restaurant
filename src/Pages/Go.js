@@ -1,14 +1,12 @@
-import React from 'react'
 import '../App.css'
-import Main from '../components/Main'
 import Navbar from '../components/Navbar'
 
 
-export default function Home() {
+export default function Go() {
     return (
         <div className="home">
             <Navbar />
-            <Main />
+            <h1>Shipping</h1>
         </div>
     )
 }
