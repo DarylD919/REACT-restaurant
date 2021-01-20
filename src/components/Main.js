@@ -12,46 +12,44 @@ export default function Main() {
                 <Link to="/get" className="card-link">
                     <div className="card-container">
                         <img src={image1} alt="bake" className="img-src" />
-                        <div className="card-title"><h3>Mc Donald's</h3></div>
-                        <div className="card-content">
+                        <div className="card-title"><h3>Mc Donald's</h3></div>                            <div className="card-content">
                             <p>Fast Food Chain Restaurant</p>
                         </div>
                     </div>
                 </Link>
-            </div>
-            <div className="card">
-                <Link to="/get" className="card-link">
-                    <div className="card-container">
-                        <img src={image2} alt="bake" className="img-src" />
-                        <div className="card-title"><h3>Papa John's</h3></div>
+                </div>
+                <div className="card">
+                    <Link to="/get" className="card-link">
+                        <div className="card-container">
+                            <img src={image2} alt="bake" className="img-src" />
+                            <div className="card-title"><h3>Papa John's</h3></div>
+                            <div className="card-content">
+                                <p>Fast Food Chain Restaurant</p>
+                            </div>
+                        </div>
+                    </Link>
+                </div>
+                <div className="card">
+                    <Link to="/get" className="card-link">
+                        <div className="card-container">
+                            <img src={image3} alt="bake" className="img-src" />
+                            <div className="card-title"><h3>KFC</h3></div>
+                            <div className="card-content">
+                                <p>Fast Food Chain Restaurant</p>
+                            </div>
+                        </div>
+                    </Link>
+                </div>          
+                <div className="card">
+                    <Link to="/get" className="card-link">
+                        <div className="card-container">
+                            <img src={image4} alt="bake" className="img-src" />                            <div className="card-title"><h3>Dominos</h3></div>
                         <div className="card-content">
                             <p>Fast Food Chain Restaurant</p>
                         </div>
-                    </div>
+                   </div>
                 </Link>
-            </div>
-            <div className="card">
-                <Link to="/get" className="card-link">
-                    <div className="card-container">
-                        <img src={image3} alt="bake" className="img-src" />
-                        <div className="card-title"><h3>KFC</h3></div>
-                        <div className="card-content">
-                            <p>Fast Food Chain Restaurant</p>
-                        </div>
-                    </div>
-                </Link>
-            </div>          
-            <div className="card">
-                <Link to="/get" className="card-link">
-                    <div className="card-container">
-                        <img src={image4} alt="bake" className="img-src" />
-                        <div className="card-title"><h3>Dominos</h3></div>
-                        <div className="card-content">
-                            <p>Fast Food Chain Restaurant</p>
-                        </div>
-                    </div>
-                </Link>
-            </div>           
-        </div>
+           </div>           
+       </div>
     )
 }
