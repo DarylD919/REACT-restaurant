@@ -3,10 +3,36 @@ import React from 'react'
 export default function Main() {
     return (
         <div className="selection">
-            <h1>Restaurants nearby</h1>
             <div className="card">
                 <div className="card-container">
-                    <div className="card-title"><h1>Maccies</h1></div>
+                    <div className="card-title"><h3>Maccies</h3></div>
+                    <div className="card-content">
+                        <p>Fast Food Chain Restaurant</p>
+                    </div>
+                </div>
+            </div>
+            <div className="card">
+                <div className="card-container">
+                    <div className="card-title"><h3>Maccies</h3></div>
+                    <div className="card-content">
+                        <p>Fast Food Chain Restaurant</p>
+                    </div>
+                </div>
+            </div>
+            <div className="card">
+                <div className="card-container">
+                    <div className="card-title"><h3>Maccies</h3></div>
+                    <div className="card-content">
+                        <p>Fast Food Chain Restaurant</p>
+                    </div>
+                </div>
+            </div>
+            <div className="card">
+                <div className="card-container">
+                    <div className="card-title"><h3>Maccies</h3></div>
+                    <div className="card-content">
+                        <p>Fast Food Chain Restaurant</p>
+                    </div>
                 </div>
             </div>
         </div>

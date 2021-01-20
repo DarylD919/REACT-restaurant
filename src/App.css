@@ -82,8 +82,8 @@ ul{
 }
 
 .home h1{
-  margin: 10rem 0;
-  color: #ffeea1;
+  margin: 5rem 0;
+  color: #ffffff;
   display: flex;
   align-items: center;
   justify-content: center;
@@ -119,6 +119,26 @@ ul{
   background-repeat: no-repeat;
   height: 100vh;
 }
+
+/* card */
+
+.selection{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.card {
+  box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
+  margin: 0 2.5rem;
+  transition: 0.3s;
+  width: 100%;
+  border-radius: 5px;
+}
+
+
+
+
 
 
 /* Footer */
