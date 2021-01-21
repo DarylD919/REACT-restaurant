@@ -107,6 +107,19 @@ ul{
   justify-content: center;
 }
 
+.get-btn{
+  margin-top: 1rem;
+  padding: 1rem;
+  width: 100%;
+  border-radius: 0rem;
+  border: none;
+}
+
+.get-btn:hover{
+  background-color: #ffd92e;
+  opacity: 0.5;
+}
+
 /* set */
 
 .set{
@@ -151,7 +164,7 @@ img {
   background-color: rgb(255, 255, 255);
   color: #000000;
   width: 100%;
-  padding: 0 0 1.5rem 0;
+  padding: 0;
   border-radius: 5px;
   text-align: center;
 }
@@ -166,11 +179,6 @@ img {
   transition: 0.3s;
   width: 250px;
   border-radius: 5px;
-}
-
-
-.card:hover {
-  box-shadow: 0 8px 16px 0 rgba(126, 126, 126, 0.76);
 }
 
 
