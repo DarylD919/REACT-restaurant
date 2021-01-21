@@ -10,12 +10,12 @@ export default function Card() {
     return (
         <div className="selection">
             <div className="card">
-                    <div className="card-container">
-                        <img src={image1} alt="bake" className="img-src" />
-                        <div className="card-title"><h3>Sample</h3></div>
-                        <div className="card-content">
-                            <p>Fast Food Chain Restaurant</p>
-                            <p><button className="get-btn">Add to cart</button></p>
+                <div className="card-container">
+                    <img src={image1} alt="bake" className="img-src" />
+                    <div className="card-title"><h3>Sample</h3></div>
+                    <div className="card-content">
+                        <p>Fast Food Chain Restaurant</p>
+                        <p><button className="get-btn">Add to cart</button></p>
                     </div>
                 </div>            
             </div>  
