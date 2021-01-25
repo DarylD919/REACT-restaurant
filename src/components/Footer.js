@@ -13,7 +13,7 @@ function Footer() {
           You can unsubscribe at any time.
         </p>
         <div className='input-areas'>
-          <form>
+          <form className="footer-form">
             <input
               className='footer-input'
               name='email'
