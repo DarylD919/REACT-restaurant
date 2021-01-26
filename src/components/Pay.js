@@ -1,9 +1,8 @@
 import React from 'react'
 
-export default function Order() {
+export default function Shipping() {
     return (
-        <div className="order">
-
+        <div className="shipping">
             <div className="summary">
                 <form className="order-form">
                     <h3>Payment</h3>
